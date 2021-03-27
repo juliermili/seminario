@@ -1,5 +1,11 @@
+"""1. Tomando el texto del README.md de numpy, imprima todas las líneas que contienen ‘http’ o ‘https’.
+2. Indique la palabra que aparece mayor cantidad de veces en el texto del README.md de numpy.
+3. Dado un texto solicite por teclado una letra e imprima las palabras que comienzan con dicha letra. 
+En caso que no se haya inrgesado un letra, indique el error. Ver: módulo string
+"""
 
 texto = '''NumPy is the fundamental package needed for scientific computing with Python.
+
 
     Website: https://www.numpy.org
     Documentation: https://numpy.org/doc
