@@ -1,10 +1,12 @@
+"""Practica 2 - Ejercicio 9"""
+
 frase = input('Ingrese una palabra o frase:').lower()
 heterograma = True
 
 for letra in frase:
-    if heterograma == True and letra.isalpha() and frase.count(letra)>1:
+    if heterograma and letra.isalpha() and frase.count(letra)>1:
         heterograma = False
-        print(letra, letra.isalpha(), frase.count(letra))
+        break
 
-
-print(f'\'{frase}\' es un heterograma: {heterograma}')
+if heterograma: print(f'\'{frase}\' es un heterograma') 
+else: print(f'\'{frase}\' NO es un heterograma')
