@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 from src.windows import menu
-from src.components import data1
+from src.components import data1, data2
 
 def start():
     window = loop()
@@ -18,6 +18,11 @@ def loop():
         if event == "-DATA1-":
             window.hide()
             data1.start()
+            window.un_hide()
+
+        if event == "-DATA2-":
+            window.hide()
+            data2.start()
             window.un_hide()
 
     return window
