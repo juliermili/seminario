@@ -18,7 +18,7 @@ def loop():
 
         if event == "-DATA1-":
             data1_handler.start(values['YEAR'])
-            sg.Popup('El archivo json fue generado con el nombre resultados_data2')
+            sg.Popup('El archivo json fue generado con el nombre resultados_data1')
             break
 
     return window

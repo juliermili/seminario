@@ -1,4 +1,0 @@
-Fuentes:
-https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021
-
-https://www.kaggle.com/matheusgratz/world-university-rankings-2021
